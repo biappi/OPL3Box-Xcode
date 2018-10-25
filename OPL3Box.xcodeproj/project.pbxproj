@@ -25,6 +25,45 @@
 /* Begin PBXFileReference section */
 		3F68B9B5218214C40026DB37 /* OPL3Box */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OPL3Box; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F68B9B8218214C40026DB37 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3F68B9C12182161B0026DB37 /* EC11-Photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EC11-Photo.jpg"; sourceTree = "<group>"; };
+		3F68B9C22182161B0026DB37 /* a21.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = a21.hpp; sourceTree = "<group>"; };
+		3F68B9C42182161B0026DB37 /* eeprom.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = eeprom.hpp; sourceTree = "<group>"; };
+		3F68B9C52182161B0026DB37 /* spi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = spi.hpp; sourceTree = "<group>"; };
+		3F68B9C62182161B0026DB37 /* font8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = font8.hpp; sourceTree = "<group>"; };
+		3F68B9C72182161B0026DB37 /* serial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = serial.hpp; sourceTree = "<group>"; };
+		3F68B9C82182161B0026DB37 /* ec11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ec11.hpp; sourceTree = "<group>"; };
+		3F68B9C92182161B0026DB37 /* debouncer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = debouncer.hpp; sourceTree = "<group>"; };
+		3F68B9CA2182161B0026DB37 /* print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = print.hpp; sourceTree = "<group>"; };
+		3F68B9CB2182161B0026DB37 /* framebuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = framebuffer.hpp; sourceTree = "<group>"; };
+		3F68B9CC2182161B0026DB37 /* clock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = clock.hpp; sourceTree = "<group>"; };
+		3F68B9CD2182161B0026DB37 /* display8.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = display8.hpp; sourceTree = "<group>"; };
+		3F68B9CE2182161B0026DB37 /* flashstring.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = flashstring.hpp; sourceTree = "<group>"; };
+		3F68B9CF2182161B0026DB37 /* pins.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pins.hpp; sourceTree = "<group>"; };
+		3F68B9D02182161B0026DB37 /* pcd8544.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pcd8544.hpp; sourceTree = "<group>"; };
+		3F68B9D12182161B0026DB37 /* ssd1306.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ssd1306.hpp; sourceTree = "<group>"; };
+		3F68B9D22182161B0026DB37 /* i2c.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = i2c.hpp; sourceTree = "<group>"; };
+		3F68B9D32182161B0026DB37 /* pcd8544fonts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pcd8544fonts.hpp; sourceTree = "<group>"; };
+		3F68B9D42182161B0026DB37 /* font8fonts.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = font8fonts.hpp; sourceTree = "<group>"; };
+		3F68B9D52182161B0026DB37 /* midi.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = midi.hpp; sourceTree = "<group>"; };
+		3F68B9D62182161B0026DB37 /* dht22.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dht22.hpp; sourceTree = "<group>"; };
+		3F68B9D72182161B0026DB37 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3F68B9D82182161B0026DB37 /* EC11-Pinout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EC11-Pinout.png"; sourceTree = "<group>"; };
+		3F68B9D92182161B0026DB37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F68B9DC2182161B0026DB37 /* a21-dth22-example.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = "a21-dth22-example.ino"; sourceTree = "<group>"; };
+		3F68B9DE2182161B0026DB37 /* a21-ec11-example.ino */ = {isa = PBXFileReference; lastKnownFileType = text; path = "a21-ec11-example.ino"; sourceTree = "<group>"; };
+		3F68B9DF2182161B0026DB37 /* EC11-Pinout.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EC11-Pinout.sketch"; sourceTree = "<group>"; };
+		3F68B9E02182161B0026DB37 /* library.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = library.properties; sourceTree = "<group>"; };
+		3F68B9E22182161B0026DB37 /* OPL3box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OPL3box.png; sourceTree = "<group>"; };
+		3F68B9E32182161B0026DB37 /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		3F68B9E52182161B0026DB37 /* OPL3box.sch */ = {isa = PBXFileReference; lastKnownFileType = text; path = OPL3box.sch; sourceTree = "<group>"; };
+		3F68B9E62182161B0026DB37 /* OPL3box.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = OPL3box.pro; sourceTree = "<group>"; };
+		3F68B9E72182161B0026DB37 /* OPL3box-cache.lib */ = {isa = PBXFileReference; lastKnownFileType = text; path = "OPL3box-cache.lib"; sourceTree = "<group>"; };
+		3F68B9E82182161B0026DB37 /* sym-lib-table */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sym-lib-table"; sourceTree = "<group>"; };
+		3F68B9E92182161B0026DB37 /* OPL3box.kicad_pcb */ = {isa = PBXFileReference; lastKnownFileType = text; path = OPL3box.kicad_pcb; sourceTree = "<group>"; };
+		3F68B9EA2182161B0026DB37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F68B9EB2182161B0026DB37 /* OPL3box.ino */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = OPL3box.ino; sourceTree = "<group>"; };
+		3F68B9EE218216EC0026DB37 /* Arduino.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arduino.h; sourceTree = "<group>"; };
+		3F68B9EF218217C00026DB37 /* MIDIUSB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDIUSB.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				3F68B9B7218214C40026DB37 /* OPL3Box */,
+				3F68B9BF2182161B0026DB37 /* Submodules */,
 				3F68B9B6218214C40026DB37 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		3F68B9B6218214C40026DB37 /* Products */ = {
 			isa = PBXGroup;
@@ -57,9 +99,119 @@
 		3F68B9B7218214C40026DB37 /* OPL3Box */ = {
 			isa = PBXGroup;
 			children = (
+				3F68B9F0218218930026DB37 /* ArduinoCompat */,
 				3F68B9B8218214C40026DB37 /* main.cpp */,
 			);
 			path = OPL3Box;
+			sourceTree = "<group>";
+		};
+		3F68B9BF2182161B0026DB37 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9C02182161B0026DB37 /* a21 */,
+				3F68B9E12182161B0026DB37 /* OPL3box */,
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
+		3F68B9C02182161B0026DB37 /* a21 */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9C12182161B0026DB37 /* EC11-Photo.jpg */,
+				3F68B9C22182161B0026DB37 /* a21.hpp */,
+				3F68B9C32182161B0026DB37 /* a21 */,
+				3F68B9D72182161B0026DB37 /* LICENSE */,
+				3F68B9D82182161B0026DB37 /* EC11-Pinout.png */,
+				3F68B9D92182161B0026DB37 /* README.md */,
+				3F68B9DA2182161B0026DB37 /* examples */,
+				3F68B9DF2182161B0026DB37 /* EC11-Pinout.sketch */,
+				3F68B9E02182161B0026DB37 /* library.properties */,
+			);
+			path = a21;
+			sourceTree = "<group>";
+		};
+		3F68B9C32182161B0026DB37 /* a21 */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9C42182161B0026DB37 /* eeprom.hpp */,
+				3F68B9C52182161B0026DB37 /* spi.hpp */,
+				3F68B9C62182161B0026DB37 /* font8.hpp */,
+				3F68B9C72182161B0026DB37 /* serial.hpp */,
+				3F68B9C82182161B0026DB37 /* ec11.hpp */,
+				3F68B9C92182161B0026DB37 /* debouncer.hpp */,
+				3F68B9CA2182161B0026DB37 /* print.hpp */,
+				3F68B9CB2182161B0026DB37 /* framebuffer.hpp */,
+				3F68B9CC2182161B0026DB37 /* clock.hpp */,
+				3F68B9CD2182161B0026DB37 /* display8.hpp */,
+				3F68B9CE2182161B0026DB37 /* flashstring.hpp */,
+				3F68B9CF2182161B0026DB37 /* pins.hpp */,
+				3F68B9D02182161B0026DB37 /* pcd8544.hpp */,
+				3F68B9D12182161B0026DB37 /* ssd1306.hpp */,
+				3F68B9D22182161B0026DB37 /* i2c.hpp */,
+				3F68B9D32182161B0026DB37 /* pcd8544fonts.hpp */,
+				3F68B9D42182161B0026DB37 /* font8fonts.hpp */,
+				3F68B9D52182161B0026DB37 /* midi.hpp */,
+				3F68B9D62182161B0026DB37 /* dht22.hpp */,
+			);
+			path = a21;
+			sourceTree = "<group>";
+		};
+		3F68B9DA2182161B0026DB37 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9DB2182161B0026DB37 /* a21-dth22-example */,
+				3F68B9DD2182161B0026DB37 /* a21-ec11-example */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		3F68B9DB2182161B0026DB37 /* a21-dth22-example */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9DC2182161B0026DB37 /* a21-dth22-example.ino */,
+			);
+			path = "a21-dth22-example";
+			sourceTree = "<group>";
+		};
+		3F68B9DD2182161B0026DB37 /* a21-ec11-example */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9DE2182161B0026DB37 /* a21-ec11-example.ino */,
+			);
+			path = "a21-ec11-example";
+			sourceTree = "<group>";
+		};
+		3F68B9E12182161B0026DB37 /* OPL3box */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9E22182161B0026DB37 /* OPL3box.png */,
+				3F68B9E32182161B0026DB37 /* UI.h */,
+				3F68B9E42182161B0026DB37 /* kicad */,
+				3F68B9EA2182161B0026DB37 /* README.md */,
+				3F68B9EB2182161B0026DB37 /* OPL3box.ino */,
+			);
+			path = OPL3box;
+			sourceTree = "<group>";
+		};
+		3F68B9E42182161B0026DB37 /* kicad */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9E52182161B0026DB37 /* OPL3box.sch */,
+				3F68B9E62182161B0026DB37 /* OPL3box.pro */,
+				3F68B9E72182161B0026DB37 /* OPL3box-cache.lib */,
+				3F68B9E82182161B0026DB37 /* sym-lib-table */,
+				3F68B9E92182161B0026DB37 /* OPL3box.kicad_pcb */,
+			);
+			path = kicad;
+			sourceTree = "<group>";
+		};
+		3F68B9F0218218930026DB37 /* ArduinoCompat */ = {
+			isa = PBXGroup;
+			children = (
+				3F68B9EE218216EC0026DB37 /* Arduino.h */,
+				3F68B9EF218217C00026DB37 /* MIDIUSB.h */,
+			);
+			path = ArduinoCompat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +332,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					Submodules/a21,
+					OPL3Box/ArduinoCompat,
+				);
 			};
 			name = Debug;
 		};
@@ -231,6 +387,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					Submodules/a21,
+					OPL3Box/ArduinoCompat,
+				);
 			};
 			name = Release;
 		};

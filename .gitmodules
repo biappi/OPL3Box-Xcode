@@ -1,0 +1,6 @@
+[submodule "Submodules/OPL3box"]
+	path = Submodules/OPL3box
+	url = https://github.com/biappi/OPL3box
+[submodule "Submodules/a21"]
+	path = Submodules/a21
+	url = https://github.com/biappi/a21.git
